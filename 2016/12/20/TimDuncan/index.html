@@ -15,16 +15,16 @@
 
 
 
-<meta name="description" content="使用Hexo生成静态文件后，想尝试hexo的一键部署到github。确认yml配置无误，执行`hexo d`后deploy到一半就卡住了。">
+<meta name="description" content="圣安东尼奥的河水逆流而上，阿根廷人长发飘扬，法国跑车还是少年模样，大卫斯特恩回到选秀大会上，来自维克森林大学的蒂姆邓肯即将登场">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Hexo无法deploy的问题">
-<meta property="og:url" content="http://jerryyip.github.io/2016/11/28/GitCommitProblems/index.html">
+<meta property="og:title" content="圣安东尼奥的河水逆流而上">
+<meta property="og:url" content="http://jerryyip.github.io/2016/12/20/TimDuncan/index.html">
 <meta property="og:site_name" content="SiTCaFy">
-<meta property="og:description" content="使用Hexo生成静态文件后，想尝试hexo的一键部署到github。确认yml配置无误，执行`hexo d`后deploy到一半就卡住了。">
-<meta property="og:updated_time" content="2016-11-30T03:10:24.000Z">
+<meta property="og:description" content="圣安东尼奥的河水逆流而上，阿根廷人长发飘扬，法国跑车还是少年模样，大卫斯特恩回到选秀大会上，来自维克森林大学的蒂姆邓肯即将登场">
+<meta property="og:updated_time" content="2016-12-19T16:14:46.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Hexo无法deploy的问题">
-<meta name="twitter:description" content="使用Hexo生成静态文件后，想尝试hexo的一键部署到github。确认yml配置无误，执行`hexo d`后deploy到一半就卡住了。">
+<meta name="twitter:title" content="圣安东尼奥的河水逆流而上">
+<meta name="twitter:description" content="圣安东尼奥的河水逆流而上，阿根廷人长发飘扬，法国跑车还是少年模样，大卫斯特恩回到选秀大会上，来自维克森林大学的蒂姆邓肯即将登场">
 
 <link rel="apple-touch-icon" href= "/apple-touch-icon.png">
 
@@ -54,7 +54,7 @@
 <link href="//cdn.bootcss.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
 
 
-<title>Hexo无法deploy的问题 | SiTCaFy</title>
+<title>圣安东尼奥的河水逆流而上 | SiTCaFy</title>
 
 <script src="//cdn.bootcss.com/jquery/2.2.4/jquery.min.js"></script>
 <script src="//cdn.bootcss.com/clipboard.js/1.5.10/clipboard.min.js"></script>
@@ -200,11 +200,11 @@
     </div>
     <link class="menu-list" tags="标签" friends="友情链接" about="关于我"/>
 </nav>
-      <div class="body-wrap"><article id="post-GitCommitProblems" class="article article-type-post" itemscope itemprop="blogPost">
+      <div class="body-wrap"><article id="post-TimDuncan" class="article article-type-post" itemscope itemprop="blogPost">
   
     <div class="article-meta">
-      <a href="/2016/11/28/GitCommitProblems/" class="article-date">
-      <time datetime="2016-11-27T16:00:00.000Z" itemprop="datePublished">2016-11-28</time>
+      <a href="/2016/12/20/TimDuncan/" class="article-date">
+      <time datetime="2016-12-20T03:11:11.000Z" itemprop="datePublished">2016-12-20</time>
 </a>
 
 
@@ -219,7 +219,7 @@
         
   
     <h1 class="article-title" itemprop="name">
-      Hexo无法deploy的问题
+      圣安东尼奥的河水逆流而上
     </h1>
   
 
@@ -230,7 +230,7 @@
 
         
     <div class="article-tag tagcloud">
-        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Hexo/">Hexo</a></li></ul>
+        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/NBA/">NBA</a></li></ul>
     </div>
 
         <div class="clearfix"></div>
@@ -240,12 +240,12 @@
     <div class="article-entry" itemprop="articleBody">
       
           
-        <p>使用Hexo生成静态文件后，想尝试hexo的一键部署到github。确认yml配置无误，执行 <code>hexo d</code> 然后deploy到一半就卡住了：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div><div class="line">40</div><div class="line">41</div><div class="line">42</div></pre></td><td class="code"><pre><div class="line">➜  myBlog hexo d -g</div><div class="line">INFO  Start processing</div><div class="line">INFO  Files loaded in 336 ms</div><div class="line">INFO  0 files generated in 311 ms</div><div class="line">INFO  Deploying: git</div><div class="line">INFO  Setting up Git deployment...</div><div class="line">Initialized empty Git repository in /Users/jy/Documents/myBlog/.deploy_git/.git/</div><div class="line">[master (root-commit) 364668e] First commit</div><div class="line"> 1 file changed, 0 insertions(+), 0 deletions(-)</div><div class="line"> create mode 100644 placeholder</div><div class="line">INFO  Clearing .deploy_git folder...</div><div class="line">INFO  Copying files from public folder...</div><div class="line">[master 4ddd614] Site updated: 2016-11-30 09:48:46</div><div class="line"> 28 files changed, 8840 insertions(+)</div><div class="line"> create mode 100644 2016/11/25/hello-world/index.html</div><div class="line"> create mode 100644 2016/11/26/legendofonesecond/index.html</div><div class="line"> create mode 100644 2016/11/27/text1/index.html</div><div class="line"> create mode 100644 2016/11/28/GitCommitProblems/index.html</div><div class="line"> create mode 100644 about/index.html</div><div class="line"> create mode 100644 apple-touch-icon.ico</div><div class="line"> create mode 100644 archives/2016/11/index.html</div><div class="line"> create mode 100644 archives/2016/index.html</div><div class="line"> create mode 100644 archives/index.html</div><div class="line"> create mode 100644 background/bg-1.jpg</div><div class="line"> create mode 100644 background/bg-2.jpg</div><div class="line"> create mode 100644 background/bg-3.jpg</div><div class="line"> create mode 100644 css/style.css</div><div class="line"> create mode 100644 favicon.ico</div><div class="line"> create mode 100644 img/avatar.jpg</div><div class="line"> create mode 100644 img/naive.png</div><div class="line"> create mode 100644 index.html</div><div class="line"> create mode 100644 js/GithubRepoWidget.js</div><div class="line"> create mode 100644 js/instagram.js</div><div class="line"> create mode 100644 js/main.js</div><div class="line"> create mode 100644 js/mobile.js</div><div class="line"> create mode 100644 js/pc.js</div><div class="line"> create mode 100644 js/search.js</div><div class="line"> create mode 100644 js/toc.js</div><div class="line"> delete mode 100644 placeholder</div><div class="line"> create mode 100644 tags/Git/index.html</div><div class="line"> create mode 100644 tags/ha/index.html</div><div class="line"> create mode 100644 tags/test/index.html</div></pre></td></tr></table></figure>
-<hr>
-<p><strong>解决方法：</strong> 删除hexo目录下的隐藏文件夹 <code>rm -rf .deploy_git</code>，然后 <code>hexo clean</code> 清除缓存文件 (db.json) 和已生成的静态文件 (public)，再<code>hexo d -g</code> 一次即可。</p>
-<p><strong>原因：</strong> 因github在墙外，本朝上传速度较慢。如果一次性部署较多的内容（如几Mb的图片）就会导致上传便秘了（求解析上传过程）。</p>
-<p>更多hexo常见问题可以点击<a href="https://xuanwo.org/2014/08/14/hexo-usual-problem/" target="_blank" rel="external">xuanwo（hexo团队）的博客</a></p>
+        <p>圣安东尼奥的河水逆流而上，</p>
+<p>阿根廷人长发飘扬，</p>
+<p>法国跑车还是少年模样，</p>
+<p>大卫斯特恩回到选秀大会上，</p>
+<p>来自维克森林大学的蒂姆邓肯即将登场。</p>
+<p><em>——摘自虎扑刺区</em></p>
 
       
     </div>
@@ -254,13 +254,13 @@
   
     
     <div class="copyright">
-        <p><span>本文标题:</span><a href="/2016/11/28/GitCommitProblems/">Hexo无法deploy的问题</a></p>
+        <p><span>本文标题:</span><a href="/2016/12/20/TimDuncan/">圣安东尼奥的河水逆流而上</a></p>
         <p><span>文章作者:</span><a href="/" title="回到主页">JerryYip</a></p>
-        <p><span>发布时间:</span>2016-11-28, 00:00:00</p>
-        <p><span>最后更新:</span>2016-11-30, 11:10:24</p>
+        <p><span>发布时间:</span>2016-12-20, 11:11:11</p>
+        <p><span>最后更新:</span>2016-12-20, 00:14:46</p>
         <p>
-            <span>原始链接:</span><a class="post-url" href="/2016/11/28/GitCommitProblems/" title="Hexo无法deploy的问题">http://jerryyip.github.io/2016/11/28/GitCommitProblems/</a>
-            <span class="copy-path" data-clipboard-text="原文: http://jerryyip.github.io/2016/11/28/GitCommitProblems/　　作者: JerryYip" title="点击复制文章链接"><i class="fa fa-clipboard"></i></span>
+            <span>原始链接:</span><a class="post-url" href="/2016/12/20/TimDuncan/" title="圣安东尼奥的河水逆流而上">http://jerryyip.github.io/2016/12/20/TimDuncan/</a>
+            <span class="copy-path" data-clipboard-text="原文: http://jerryyip.github.io/2016/12/20/TimDuncan/　　作者: JerryYip" title="点击复制文章链接"><i class="fa fa-clipboard"></i></span>
             <script> var clipboard = new Clipboard('.copy-path'); </script>
         </p>
         <p>
@@ -269,6 +269,17 @@
     </div>
 
 
+
+    <nav id="article-nav">
+        
+        
+            <div id="article-nav-older" class="article-nav-title">
+                <a href="/2016/12/10/draft/python_iterable/">
+                    
+                </a>
+            </div>
+        
+    </nav>
 
   
 </article>
@@ -312,7 +323,7 @@
         </div>
         <script>
             window._bd_share_config={
-                "common":{"bdSnsKey":{},"bdText":"Hexo无法deploy的问题　| SiTCaFy　","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"0","bdSize":"24"},"share":{}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];
+                "common":{"bdSnsKey":{},"bdText":"圣安东尼奥的河水逆流而上　| SiTCaFy　","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"0","bdSize":"24"},"share":{}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];
         </script>
     
 
@@ -328,7 +339,7 @@
     
       <div class="duoshuo" id="comments">
     <div id="comment-box" ></div>
-    <div class="ds-thread" id="ds-thread" data-thread-key="2016/11/28/GitCommitProblems/" data-title="Hexo无法deploy的问题" data-url="http://jerryyip.github.io/2016/11/28/GitCommitProblems/"></div>
+    <div class="ds-thread" id="ds-thread" data-thread-key="2016/12/20/TimDuncan/" data-title="圣安东尼奥的河水逆流而上" data-url="http://jerryyip.github.io/2016/12/20/TimDuncan/"></div>
     <script>
         var duoshuoQuery = {short_name:"jerryyip"};
         var loadComment = function(){
@@ -357,11 +368,13 @@
         <a title="文章列表"><i class="fa fa-bars"></i><i class="fa fa-times"></i></a>
 
         
-            <a href="/" title="回到主页"><i class="fa fa-home"></i></a>
+            <a href="/2016/12/10/draft/python_iterable/" title="下一篇: ">
+                <i class="fa fa-angle-right"></i>
+            </a>
         
     </div>
 
-    <ul class="post-list"><li class="post-list-item"><a class="post-list-link" href="/2016/11/28/GitCommitProblems/">Hexo无法deploy的问题</a></li></ul>
+    <ul class="post-list"><li class="post-list-item"><a class="post-list-link" href="/2016/12/20/TimDuncan/">圣安东尼奥的河水逆流而上</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/12/10/draft/python_iterable/">draft/python_iterable</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/11/28/Hexo_deploy_problem/">Hexo无法deploy的问题</a></li></ul>
 
 
 
